@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@700&family=Roboto:wght@300;400;700&display=swap');
+
+:root {
+    --dark: #1c252f;
+    --dark-light: #263240;
+    --yellow:  #f5ba08;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.bg--dark {
+    background-color: var(--dark);
+}
+
+.bg--dark-light {
+    background-color: var(--dark-light);
+}
+
+.bg--yellow {
+    background-color: var(--yellow);
+}
+
+.text--yellow {
+    color: var(--yellow);
+}
+
+.border--dark {
+    border-color: var(--dark);
+}
+
+.logo {
+    font-family: 'Play', sans-serif;
+}
+
+.hero__button:hover {
+    background-color: var(--dark-light);
+    color: var(--yellow) !important;
+}
+
+.list-group-item:hover{
+    background-color: var(--dark);
+}
+
+.list-group-item span {
+    cursor: pointer;
+}
